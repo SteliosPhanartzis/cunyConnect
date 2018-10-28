@@ -4,8 +4,9 @@
 	overflow: hidden;
 }
 
-.mr-sm-2{
+.search{
 	float: center;
+	width: 25%;
 }
 .bodyBack{
 	background-image: url("./assets/bg_city.jpeg");
