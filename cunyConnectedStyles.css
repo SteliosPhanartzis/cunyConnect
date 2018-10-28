@@ -36,7 +36,9 @@
 .form-inline{
 	position: center;
 }
-
+#search{
+	width: 50%;
+}
 #upcomingEvents {
 	padding-right: 2%;
 	padding-bottom: 2%;
