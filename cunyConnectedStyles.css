@@ -4,6 +4,10 @@
 	overflow: hidden;
 }
 
+.search{
+	width: 200%;
+}
+
 .bodyBack{
 	background-image: url("./assets/bg_city.jpeg");
 	background-repeat: no-repeat;
