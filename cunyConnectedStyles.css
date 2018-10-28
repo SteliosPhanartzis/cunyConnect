@@ -4,6 +4,9 @@
 	overflow: hidden;
 }
 
+.mr-sm-2{
+	float: center;
+}
 .bodyBack{
 	background-image: url("./assets/bg_city.jpeg");
 	background-repeat: no-repeat;
