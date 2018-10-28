@@ -1,80 +1,90 @@
-.container-fluid{
-	padding: 0 !important;
-	margin: 0 !important;
-	overflow: hidden;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="cunyConnectedStyles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-.bodyBack{
-	background-image: url("assests/bg_city.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-left: 2%;
-}
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-#upCUM img{
-	border-radius: 5%;
-	/*box-shadow: */
-}
+	<title>cunyConnect</title>
+</head>
+<body>
+	<div class=container-fluid>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  				<a class="navbar-brand" href="#">cunyConnect</a>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
 
-#mainView h1{
-	padding: 2% 1%;
-	font-size: 100px;
-	color: #fff;
-	opacity: .78;
-}
+  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<!--     <ul class="navbar-nav mr-auto">
+    			</ul> -->
+    				<form class="form-inline ml-auto">
+      					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    				</form>
+  				</div>
+		</nav> 
 
-#following{
-	margin-bottom: 0 !important;
-	background-color: grey;
-}
+	<div class="bodyBack">
+		<div class="row" id="mainView">
+			<h1>Featured Events</h1>
+			<div class="row justify-content-ld-center" id="FeaturedPhotos">
+					<div class="col-lg-3" id="e1">
+						<h3>Event A</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel</p>
+					</div>
 
-#FeaturedPhotos {
-	padding-left: 1%;
-	padding-right:2%;
-}
+					<div class="col-lg-3" id="e2">
+						<h3>Event A</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel</p>
+					</div>
 
-.form-inline{
-	position: center;
-}
+					<div class="col-lg-3" id="e3">
+						<h3>Event A</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel</p>
+					</div>
 
-#upcomingEvents {
-	padding-right: 2%;
-	padding-bottom: 2%;
+					<div class="col-lg-3" id="e4">
+						<h3>Event A</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel</p>
+					</div>
+			</div>		
+		</div>	
 
-	text-align: center;
-}
+		<div class="row" id="upcomingEvents">
+			<div class="col-lg-12">
+				<h1 id="eventHeading">Event details</h1>
+					<ol class="event"> <h3>Event 1</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel ligula et orci pharetra malesuada ac vitae ipsum. Proin ultrices libero lobortis ullamcorper ullamcorper. Maecenas quis viverra ligula. Suspendisse mattis non purus vitae semper. Ut sed tortor rhoncus, sagittis lorem suscipit, maximus eros. Morbi molestie quam faucibus pharetra ullamcorper. Vivamus egestas lobortis faucibus. Donec egestas, sapien ut pharetra mollis, leo ante molestie mauris, a pharetra elit purus non odio.</p>
+					</ol>
+					
+					<ol class="event"> <h3>Event 2</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel ligula et orci pharetra malesuada ac vitae ipsum. Proin ultrices libero lobortis ullamcorper ullamcorper. Maecenas quis viverra ligula. Suspendisse mattis non purus vitae semper. Ut sed tortor rhoncus, sagittis lorem suscipit, maximus eros. Morbi molestie quam faucibus pharetra ullamcorper. Vivamus egestas lobortis faucibus. Donec egestas, sapien ut pharetra mollis, leo ante molestie mauris, a pharetra elit purus non odio.</p>
+					</ol>
 
-#upcomingEvents h1{
-	text-align: center;
-}
+					<ol class="event"> <h3>Event 3</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel ligula et orci pharetra malesuada ac vitae ipsum. Proin ultrices libero lobortis ullamcorper ullamcorper. Maecenas quis viverra ligula. Suspendisse mattis non purus vitae semper. Ut sed tortor rhoncus, sagittis lorem suscipit, maximus eros. Morbi molestie quam faucibus pharetra ullamcorper. Vivamus egestas lobortis faucibus. Donec egestas, sapien ut pharetra mollis, leo ante molestie mauris, a pharetra elit purus non odio.</p>
+					</ol>
 
-#following{
-}
+					<ol class="event"> <h3>Event 4</h3>
+						<p>Event details:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus diam at neque ultrices convallis. Phasellus quis ante nunc. Curabitur vel ligula et orci pharetra malesuada ac vitae ipsum. Proin ultrices libero lobortis ullamcorper ullamcorper. Maecenas quis viverra ligula. Suspendisse mattis non purus vitae semper. Ut sed tortor rhoncus, sagittis lorem suscipit, maximus eros. Morbi molestie quam faucibus pharetra ullamcorper. Vivamus egestas lobortis faucibus. Donec egestas, sapien ut pharetra mollis, leo ante molestie mauris, a pharetra elit purus non odio.</p>
+					</ol>
+			</div>
+		</div>
+	</div> <!-- bodyBack Div-->
 
-.event {
-	background-color: rgba(255,255,255,.9);
-	box-sizing: content-box;
-	box-shadow: 10px 5px 5px #484949;
-}
+	<div class="row justify-content-md-center" id="following">
+		<div class="col-md-auto">
+		<!-- 	<p>Following links</p> -->
+			  <a class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter"></span>
+  </a>
+		</div>
+	</div>
 
-#eventHeading{
-	padding-left: 4%;
-	padding-top: 2%;
-	padding-bottom: 3%;
-}
-
-#e1 h3{
-	text-align: center;
-}
-
-#e2 h3{
-	text-align: center;
-}
-
-#e3 h3{
-	text-align: center;
-}
-
-#e4 h3{
-	text-align: center;
-}
+	</div> <!--Container-fluid-->
+</body>
+</html>
