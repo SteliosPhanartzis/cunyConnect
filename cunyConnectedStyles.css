@@ -38,6 +38,7 @@
 }
 #search{
 	width: 50%;
+	float: center;
 }
 #upcomingEvents {
 	padding-right: 2%;
