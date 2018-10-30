@@ -35,7 +35,7 @@
 	position: fixed;
 	width: 20%;
 	height: 90.5%;
-	top: 4.25em;
+	top: 9.5%;
 	margin-top:0;
 	margin-left: 80%;
 	margin-right: auto;
@@ -43,6 +43,7 @@
 .navbar-expand-lg{
 	z-index:10;
 	width: 100%;
+	margin-bottom:0;
 	position: fixed;
 }
 .bar1, .bar2, .bar3{
