@@ -37,8 +37,7 @@ function pageContentsOffset(){
 		//sizing
 		dropdown.style.height = (window_height - parseInt(navOffset)) + "px";
 	    dropdown.style.top = navOffset;
-	    document.getElementsByClassName('bodyBack')[0].style.paddingTop = navOffset;
-
+	    document.getElementsByClassName('bodyBack')[0].style.paddingTop = parseInt(navOffset)/(1.5) + "px";
 }
 
 function resizeElements(){
