@@ -3,12 +3,11 @@
 	margin: 0 !important;
 	overflow: hidden;
 }
-.col-lg-3{
+#FeaturedPhotos .col-lg-3{
 	border-radius: 8%;
 	max-width: 25%;
-
 }
-.col-lg-3:hover{
+#FeaturedPhotos .col-lg-3:hover{
 	background: radial-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.5),rgba(255,255,255,0.1));
 	transition: 0.2s ease-in-out;
 	cursor: pointer;
@@ -24,6 +23,7 @@
 	font-family: 'Raleway Dots', cursive;
 	font-size: 28px;
 	font-weight: bold;
+	max-width: 25%;
 }
 #upCUM img{
 	border-radius: 5%;
@@ -31,6 +31,9 @@
 }
 .img-fluid {
 	margin-left: 5%;
+}
+.hamburgler{
+	max-width:10%;
 }
 .hamburgler:hover{
 	cursor: pointer;
@@ -82,17 +85,19 @@ transform: rotate(-45deg) translate(-9px, 6px);
 	min-width: 50%;
 }
 
-/*.eP1{
+/* .eP1{
 	box-sizing: content-box;
+	border-radius: 10%;
+	background-color: rgba(255,255,255,0.5);
+} */
 
-	background-color: rgba(255, 255, 255,.75);
-	margin-right: 20%;
-}*/
+#searchDiv {
+	max-width: 60%;
+}
 
 #search {
 	width: 50% !important;
 }
-
 #following{
 	margin-bottom: 0 !important;
 	background-color: grey;
@@ -139,8 +144,6 @@ transform: rotate(-45deg) translate(-9px, 6px);
 	padding-top: 2%;
 	padding-bottom: 3%;
 }
-
-
 #e1 h3{
 	margin-left: 22%;
 }
